@@ -1,0 +1,42 @@
+[
+    {
+        "img": "./images/GTA.SA.jpg",
+        "titulo": "GTA: San Andreas",
+        "precio": 3000
+    },
+    {
+        "img": "./images/viceCity.webp",
+        "titulo": "GTA: Vice City",
+        "precio": 3000
+    },
+    {
+        "img": "./images/the-simpsons-hit-run.jpg",
+        "titulo": "Simpson Hit & Run",
+        "precio": 3000
+    },
+    {
+        "img": "./images/bully.jpg",
+        "titulo": "Bully",
+        "precio": 3000 
+    },
+    {
+        "img": "./images/Silent_Hill_2.jpg",
+        "titulo": "Sillent Hill 2",
+        "precio": 3000 
+    },
+    {
+        "img": "./images/cod.jpg",
+        "titulo": "COD: World At War",
+        "precio": 3000 
+    },
+    {
+        "img": "./images/Dragon_Ball_Z_Budokai_Tenkaichi_3.webp",
+        "titulo": "Budokai Tenkaichi 3",
+        "precio": 3000 
+    },
+    {
+        "img": "./images/re4.jpg",
+        "titulo": "Resident Evil 4",
+        "precio": 3000  
+    }
+]
