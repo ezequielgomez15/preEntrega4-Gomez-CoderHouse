@@ -5,10 +5,15 @@ const ul = document.getElementById('listado')
 const total = document.querySelector('.total')
 let carrito =  []
 let precioTotal = 0
+const baseDeDatos =  '../js/data.json'
+var mHeaders = new Headers({'Content-Type':'application/json'})
 
 async function LlamarJuegos(){
     try{
-        const resp = await fetch('../js/data.json')
+        const resp = await fetch(baseDeDatos, {
+            method: 'GET', 
+            headers:mHeaders
+          })
         const data = await resp.json()
         data.forEach(usuario => {
             const contenedor = document.createElement('div')
